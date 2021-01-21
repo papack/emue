@@ -1,5 +1,10 @@
+//Aufgabe
+//Zähle alle Buchstaben und erstelle eine Auflistung
+
 let text =
   "In den letzten Tagen seiner Präsidentschaft distanzieren sich Geschäftspartner und Unterstützer von Donald Trump. Damit könnte sein Unternehmen in ernsthafte Schwierigkeiten geraten. Mit dem Ende seiner Präsidentschaft wartet auf Donald Trump eine gewaltige Herausforderung: Er muss sich um sein Firmengeflecht kümmern. Dort ist die Lage derzeit unerfreulich. Die Geschäfte laufen nicht gut, Kredite in Millionenhöhe müssen zurückgezahlt werden, juristischer Ärger droht - und Unternehmen und republikanische Politiker gehen zu Trump auf Distanz, nachdem er maßgeblich zum Sturm auf das Kapitol in Washington beigetragen hatte. Das Geschäftsmodell der Trump Organization basiert auf einer Sache: dem Namen Trump. Er steht für einen zur Schau gestellten, golden glitzernden Luxus für eine Klientel, die sich mit diesem Image schmücken will. Neben seinen Hotels und Golfplätzen setzt Trump darauf, seinen Namen zu lizenzieren. Er stellt diese Marke für die Projekte anderer zur Verfügung und kassiert dafür Lizenzgebühren. Außerdem verbreitet Trump von sich das Bild eines überaus erfolgreichen Mannes. Spätestens mit der Niederlage bei den Präsidentschaftswahlen und dem Beginn des zweiten Amtsenthebungsverfahrens ist das erheblich angekratzt. Künftig dürfte es Trump also schwererfallen, sein Geschäftsmodell aufrechtzuerhalten. Das liegt nicht nur daran, dass seine Marke an Glamour - und damit an Wert - verloren hat. Vielmehr wenden sich selbst langjährige Geschäftspartner von ihm ab, etwa die Deutsche Bank.";
+
+//Ab hier Lösung
 
 let anzahlA = 0;
 let anzahlB = 0;
