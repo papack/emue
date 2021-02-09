@@ -101,3 +101,13 @@ const welcheZahlFehlt = [
   98,
   99,
 ];
+
+//Lösung vom 09.02.2021
+
+//Zähle alle Zahlen bis zur länge des Arrays hoch
+for (let i = 0; i < welcheZahlFehlt.length; i++) {
+  //Ist die Zahl im Array vorhanden?
+  if (!welcheZahlFehlt.includes(i)) {
+    console.log(i);
+  }
+}
