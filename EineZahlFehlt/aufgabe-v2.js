@@ -1,4 +1,7 @@
-welcheZahlFehlt = [
+"use strict";
+
+const welcheZahlFehlt = [
+  0,
   1,
   2,
   3,
