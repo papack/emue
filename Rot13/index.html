@@ -7,12 +7,23 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div>
-      <textarea id="w3review" name="w3review" rows="4" cols="50"> </textarea>
-    </div>
-    <div>
-      <textarea id="w3review" name="w3review" rows="4" cols="50"> </textarea>
-    </div>
     <script src="./script.js"></script>
+    <div>
+      <textarea
+        onkeydown="handleChange(event)"
+        id="a"
+        rows="4"
+        cols="50"
+      ></textarea>
+    </div>
+    <div>
+      <textarea
+        onkeydown="handleChange(event)"
+        id="b"
+        rows="4"
+        cols="50"
+        disabled
+      ></textarea>
+    </div>
   </body>
 </html>
