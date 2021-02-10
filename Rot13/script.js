@@ -8,3 +8,13 @@ function rot13(str) {
   var translate = (x) => (index(x) > -1 ? output[index(x)] : x);
   return str.split("").map(translate).join("");
 }
+
+function handleChange(event) {
+  const first = document.getElementById("a");
+  const second = document.getElementById("b");
+
+  setTimeout(() => {
+    first.value = event.target.value;
+    second.value = rot13(event.target.value);
+  }, 1);
+}
