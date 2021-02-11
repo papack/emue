@@ -36,3 +36,24 @@ else {
 
 //!true wäre false
 //!false wäre true
+
+//
+// Funktionen
+//
+
+function name(params) {
+  //inhalt
+  return true;
+}
+
+(param) => { return true}
+
+param => { return true}
+
+param => true
+
+function schleudergang(3) {
+  //a
+  //b
+  //c
+}
