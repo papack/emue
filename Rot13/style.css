@@ -17,3 +17,7 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+textarea {
+  margin: 3rem;
+}
