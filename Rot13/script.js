@@ -4,5 +4,9 @@ function handleButtonClick() {
   const original = document.getElementById("original");
   const kodiert = document.getElementById("kodiert");
 
-  kodiert.value = original.value;
+  kodiert.value = rot13(original.value);
+}
+
+function rot13(text) {
+  return text;
 }
