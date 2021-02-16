@@ -8,5 +8,9 @@ function handleButtonClick() {
 }
 
 function rot13(text) {
-  return text;
+  let input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+  let output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+  let index = (y) => input.indexOf(y);
+  let translate = (x) => (index(x) > -1 ? output[index(x)] : x);
+  return text.split("").map(translate).join("");
 }
